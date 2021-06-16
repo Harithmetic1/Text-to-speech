@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --themeColour: #FA8B6E;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: var(--themeColour);
+    max-width: 100%;
+    width: 100%;
+    h1{
+        padding: 20px;
+        text-align: center;
+        margin: 0;
+    }
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    .voice-select{
+        margin: 15px;
+        padding: 20px;
+    }
+    .controls{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        text-align: center;
+    }
+    .input-field{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        textarea{
+            padding: 10px;
+        }
+        .buttons{
+            flex-direction: row;
+            .btn{
+                padding: 10px 15px;
+                border: none;
+                color: white;
+                outline: none;
+            }
+            .play{
+                background-color: rgb(77, 238, 163);
+            }
+            .pause{
+                background-color: rgb(231, 81, 81);
+            }
+            .resume{
+                background-color: royalblue;
+            }
+        }
+    }
+}
+footer{
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    background-color: var(--themeColour);
+    .text{
+        padding: 20px;
+    }
+}

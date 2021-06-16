@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --themeColour: #FA8B6E;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-color: var(--themeColour);
+  max-width: 100%;
+  width: 100%;
+}
+
+header h1 {
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+.container .voice-select {
+  margin: 15px;
+  padding: 20px;
+}
+
+.container .controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+  text-align: center;
+}
+
+.container .input-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.container .input-field textarea {
+  padding: 10px;
+}
+
+.container .input-field .buttons {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .input-field .buttons .btn {
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+.container .input-field .buttons .play {
+  background-color: #4deea3;
+}
+
+.container .input-field .buttons .pause {
+  background-color: #e75151;
+}
+
+.container .input-field .buttons .resume {
+  background-color: royalblue;
+}
+
+footer {
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+  text-align: center;
+  max-width: 100%;
+  width: 100%;
+  background-color: var(--themeColour);
+}
+
+footer .text {
+  padding: 20px;
+}
+/*# sourceMappingURL=style.css.map */
