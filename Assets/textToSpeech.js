@@ -56,11 +56,11 @@ resumeBtn.addEventListener("click", (() =>{
     console.log("No be juju be this?");
 }))
 
-volume.addEventListener("change", (() => {
-    volumeValue.innerHTML = volume.value;
-}))
+// volume.addEventListener("change", (() => {
+//     volumeValue.innerHTML = volume.value;
+// }))
 
-pitch.addEventListener("change", (() => {
-    pitchValue.innerHTML = pitch.value;
-}))
+// pitch.addEventListener("change", (() => {
+//     pitchValue.innerHTML = pitch.value;
+// }))
 
