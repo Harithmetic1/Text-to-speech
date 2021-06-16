@@ -14,8 +14,6 @@ let talk;
 let speech = new SpeechSynthesisUtterance;
 // speech.lang = "en-US"
 
-var myRate = speechSynthesisUtteranceInstance.rate;
-
 
 window.speechSynthesis.onvoiceschanged = () => {
     let voices = window.speechSynthesis.getVoices();
@@ -64,6 +62,5 @@ volume.addEventListener("change", (() => {
 
 pitch.addEventListener("change", (() => {
     pitchValue.innerHTML = pitch.value;
-    speechSynthesisUtteranceInstance.rate = pitch.value;
 }))
 
